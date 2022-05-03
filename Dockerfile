@@ -126,6 +126,3 @@ FROM bitnami/minideb:buster-snapshot-20220403T085258Z-amd64
 
 # Tags: buster-snapshot-20220403T085258Z-arm64
 FROM bitnami/minideb:buster-snapshot-20220403T085258Z-arm64
-
-# Tags: buster-snapshot-20220402T210321Z-amd64
-FROM bitnami/minideb:buster-snapshot-20220402T210321Z-amd64
