@@ -12,16 +12,16 @@ FROM bitnami/minideb:jessie-amd64
 FROM bitnami/minideb:bullseye
 FROM bitnami/minideb:bullseye-amd64
 
-# Tags: buster-snapshot-20220419T211842Z, buster-snapshot-20220419T211842Z-amd64
-FROM bitnami/minideb:buster-snapshot-20220419T211842Z
-FROM bitnami/minideb:buster-snapshot-20220419T211842Z-amd64
+# Tags: buster-snapshot-20220512T211651Z, buster-snapshot-20220512T211651Z-amd64
+FROM bitnami/minideb:buster-snapshot-20220512T211651Z
+FROM bitnami/minideb:buster-snapshot-20220512T211651Z-amd64
 
 # Tags: stretch, stretch-amd64
 FROM bitnami/minideb:stretch
 FROM bitnami/minideb:stretch-amd64
 
-# Tags: buster-snapshot-20220419T211842Z-arm64
-FROM bitnami/minideb:buster-snapshot-20220419T211842Z-arm64
+# Tags: buster-snapshot-20220512T211651Z-arm64
+FROM bitnami/minideb:buster-snapshot-20220512T211651Z-arm64
 
 # Tags: latest-arm64, buster-arm64
 FROM bitnami/minideb:latest-arm64
@@ -32,6 +32,58 @@ FROM bitnami/minideb:stretch-arm64
 
 # Tags: bullseye-arm64
 FROM bitnami/minideb:bullseye-arm64
+
+# Tags: buster-snapshot-20220511T204932Z-amd64
+FROM bitnami/minideb:buster-snapshot-20220511T204932Z-amd64
+
+# Tags: buster-snapshot-20220510T205839Z, buster-snapshot-20220510T205839Z-amd64
+FROM bitnami/minideb:buster-snapshot-20220510T205839Z
+FROM bitnami/minideb:buster-snapshot-20220510T205839Z-amd64
+
+# Tags: buster-snapshot-20220510T205839Z-arm64
+FROM bitnami/minideb:buster-snapshot-20220510T205839Z-arm64
+
+# Tags: buster-snapshot-20220509T214601Z, buster-snapshot-20220509T214601Z-amd64
+FROM bitnami/minideb:buster-snapshot-20220509T214601Z
+FROM bitnami/minideb:buster-snapshot-20220509T214601Z-amd64
+
+# Tags: buster-snapshot-20220509T214601Z-arm64
+FROM bitnami/minideb:buster-snapshot-20220509T214601Z-arm64
+
+# Tags: buster-snapshot-20220508T205617Z, buster-snapshot-20220508T205617Z-amd64
+FROM bitnami/minideb:buster-snapshot-20220508T205617Z
+FROM bitnami/minideb:buster-snapshot-20220508T205617Z-amd64
+
+# Tags: buster-snapshot-20220508T205617Z-arm64
+FROM bitnami/minideb:buster-snapshot-20220508T205617Z-arm64
+
+# Tags: buster-snapshot-20220507T204726Z, buster-snapshot-20220507T204726Z-amd64
+FROM bitnami/minideb:buster-snapshot-20220507T204726Z
+FROM bitnami/minideb:buster-snapshot-20220507T204726Z-amd64
+
+# Tags: buster-snapshot-20220507T204726Z-arm64
+FROM bitnami/minideb:buster-snapshot-20220507T204726Z-arm64
+
+# Tags: buster-snapshot-20220506T205402Z, buster-snapshot-20220506T205402Z-amd64
+FROM bitnami/minideb:buster-snapshot-20220506T205402Z
+FROM bitnami/minideb:buster-snapshot-20220506T205402Z-amd64
+
+# Tags: buster-snapshot-20220506T205402Z-arm64
+FROM bitnami/minideb:buster-snapshot-20220506T205402Z-arm64
+
+# Tags: buster-snapshot-20220506T032033Z, buster-snapshot-20220506T032033Z-amd64
+FROM bitnami/minideb:buster-snapshot-20220506T032033Z
+FROM bitnami/minideb:buster-snapshot-20220506T032033Z-amd64
+
+# Tags: buster-snapshot-20220506T032033Z-arm64
+FROM bitnami/minideb:buster-snapshot-20220506T032033Z-arm64
+
+# Tags: buster-snapshot-20220419T211842Z, buster-snapshot-20220419T211842Z-amd64
+FROM bitnami/minideb:buster-snapshot-20220419T211842Z
+FROM bitnami/minideb:buster-snapshot-20220419T211842Z-amd64
+
+# Tags: buster-snapshot-20220419T211842Z-arm64
+FROM bitnami/minideb:buster-snapshot-20220419T211842Z-arm64
 
 # Tags: buster-snapshot-20220418T210440Z, buster-snapshot-20220418T210440Z-amd64
 FROM bitnami/minideb:buster-snapshot-20220418T210440Z
@@ -67,62 +119,3 @@ FROM bitnami/minideb:buster-snapshot-20220413T211711Z-amd64
 
 # Tags: buster-snapshot-20220413T211711Z-arm64
 FROM bitnami/minideb:buster-snapshot-20220413T211711Z-arm64
-
-# Tags: buster-snapshot-20220411T212101Z-amd64
-FROM bitnami/minideb:buster-snapshot-20220411T212101Z-amd64
-
-# Tags: buster-snapshot-20220410T210141Z, buster-snapshot-20220410T210141Z-amd64
-FROM bitnami/minideb:buster-snapshot-20220410T210141Z
-FROM bitnami/minideb:buster-snapshot-20220410T210141Z-amd64
-
-# Tags: buster-snapshot-20220410T210141Z-arm64
-FROM bitnami/minideb:buster-snapshot-20220410T210141Z-arm64
-
-# Tags: buster-snapshot-20220409T213111Z, buster-snapshot-20220409T213111Z-amd64
-FROM bitnami/minideb:buster-snapshot-20220409T213111Z
-FROM bitnami/minideb:buster-snapshot-20220409T213111Z-amd64
-
-# Tags: buster-snapshot-20220409T213111Z-arm64
-FROM bitnami/minideb:buster-snapshot-20220409T213111Z-arm64
-
-# Tags: buster-snapshot-20220408T211210Z, buster-snapshot-20220408T211210Z-amd64
-FROM bitnami/minideb:buster-snapshot-20220408T211210Z
-FROM bitnami/minideb:buster-snapshot-20220408T211210Z-amd64
-
-# Tags: buster-snapshot-20220408T211210Z-arm64
-FROM bitnami/minideb:buster-snapshot-20220408T211210Z-arm64
-
-# Tags: buster-snapshot-20220407T210552Z, buster-snapshot-20220407T210552Z-amd64
-FROM bitnami/minideb:buster-snapshot-20220407T210552Z
-FROM bitnami/minideb:buster-snapshot-20220407T210552Z-amd64
-
-# Tags: buster-snapshot-20220407T210552Z-arm64
-FROM bitnami/minideb:buster-snapshot-20220407T210552Z-arm64
-
-# Tags: buster-snapshot-20220406T213812Z, buster-snapshot-20220406T213812Z-amd64
-FROM bitnami/minideb:buster-snapshot-20220406T213812Z
-FROM bitnami/minideb:buster-snapshot-20220406T213812Z-amd64
-
-# Tags: buster-snapshot-20220406T213812Z-arm64
-FROM bitnami/minideb:buster-snapshot-20220406T213812Z-arm64
-
-# Tags: buster-snapshot-20220405T204912Z, buster-snapshot-20220405T204912Z-amd64
-FROM bitnami/minideb:buster-snapshot-20220405T204912Z
-FROM bitnami/minideb:buster-snapshot-20220405T204912Z-amd64
-
-# Tags: buster-snapshot-20220405T204912Z-arm64
-FROM bitnami/minideb:buster-snapshot-20220405T204912Z-arm64
-
-# Tags: buster-snapshot-20220404T205647Z, buster-snapshot-20220404T205647Z-amd64
-FROM bitnami/minideb:buster-snapshot-20220404T205647Z
-FROM bitnami/minideb:buster-snapshot-20220404T205647Z-amd64
-
-# Tags: buster-snapshot-20220404T205647Z-arm64
-FROM bitnami/minideb:buster-snapshot-20220404T205647Z-arm64
-
-# Tags: buster-snapshot-20220403T085258Z, buster-snapshot-20220403T085258Z-amd64
-FROM bitnami/minideb:buster-snapshot-20220403T085258Z
-FROM bitnami/minideb:buster-snapshot-20220403T085258Z-amd64
-
-# Tags: buster-snapshot-20220403T085258Z-arm64
-FROM bitnami/minideb:buster-snapshot-20220403T085258Z-arm64
